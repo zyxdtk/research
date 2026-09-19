@@ -1,0 +1,70 @@
+site_name: 投研报告库
+site_description: 个人投资研究与行业分析报告
+site_url: https://YOUR_GITHUB_USERNAME.github.io/research/
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: 切换到暗色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: 切换到亮色模式
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - admonitions
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - 首页: index.md
+  - AI:
+    - 行业: sectors/ai/底座大模型_202609.md
+    - 智谱: sectors/ai/智谱_202609.md
+    - 应用: sectors/ai/AI应用_202608.md
+  - 汽车:
+    - 行业: sectors/auto/中国汽车行业_202608.md
+    - 比亚迪: sectors/auto/比亚迪_202606.md
+    - 零跑: sectors/auto/零跑_202609.md
+    - 小鹏: sectors/auto/小鹏_202606.md
+  - 半导体:
+    - 行业: sectors/semiconductor/半导体设备_202608.md
+    - 存储: sectors/semiconductor/存储芯片_202608.md
+    - 胜宏科技: sectors/semiconductor/胜宏科技_202608.md
+  - 互联网:
+    - 腾讯: sectors/internet/腾讯_202608.md
+    - 阿里巴巴: sectors/internet/阿里巴巴_202608.md
+    - 美团: sectors/internet/美团_202608.md
+  - 通信:
+    - 行业: sectors/communication/光通信行业_202608.md
+    - 长飞光纤: sectors/communication/长飞光纤_202608.md
+  - ETF:
+    - 配置: sectors/etf/A股ETF配置_202608.md
+  - 更多:
+    - 机器人: sectors/robotics/具身智能与人形机器人_202608.md
+    - 生物医药: sectors/biotech/生物制造与创新药_202608.md
+    - 消费: sectors/consumer/泡泡玛特分析报告_202606.md
