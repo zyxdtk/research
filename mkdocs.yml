@@ -1,6 +1,6 @@
 site_name: 投研报告库
 site_description: 个人投资研究与行业分析报告
-site_url: https://YOUR_GITHUB_USERNAME.github.io/research/
+site_url: https://zyxdtk.github.io/research/
 
 theme:
   name: material
