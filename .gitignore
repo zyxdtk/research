@@ -1,5 +1,29 @@
+# --- mkdocs 构建产物 ---
 site/
 .cache/
+
+# --- Python ---
 __pycache__/
 *.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# --- 本地临时/工作目录 ---
+auto_valuation_2026Q3/
+tmp/
+*.log
+
+# --- 环境与密钥（隐私红线）---
+.env
+.env.*
+*.key
+
+# --- 编辑器与系统 ---
 .DS_Store
+Thumbs.db
+.idea/
+.vscode/
