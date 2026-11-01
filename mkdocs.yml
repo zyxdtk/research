@@ -74,7 +74,7 @@ nav:
     - 新易盛: sectors/communication/新易盛_202610.md
     - 亨通光电: sectors/communication/亨通光电_202610.md
     - 中天科技: sectors/communication/中天科技_202610.md
-    - 长飞光纤: sectors/communication/长飞光纤_202610.md
+    - 长飞光纤: sectors/communication/长飞光纤_202611.md
   - AI:
     - 行业: sectors/ai/底座大模型_202610.md
     - 智谱: sectors/ai/智谱_202610.md
@@ -116,4 +116,4 @@ nav:
     - 量化数据获取: learning/量化数据获取指南.md
     - 待补充数据清单: learning/待补充数据来源清单.md
   - ETF:
-    - 配置: sectors/etf/A股ETF配置_202610.md
+    - 配置: sectors/etf/A股ETF配置_202611.md
